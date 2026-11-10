@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+     text-decoration: none;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    nav {
+        a {
+            margin: 8px;
+        }
+    }
+}
+
+.logo{
+    height: 100px;
+}
+
+.hero {
+ background-image: url(assets/unsplash_jg-6ARMiaPM.png);
+ height: 85vh;  
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: bottom;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
