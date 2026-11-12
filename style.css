@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 
-   
+
 
 }
 
@@ -13,85 +13,104 @@ li {
 }
 
 a {
-     text-decoration: none;
-     display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 
-header{
-display: flex;
-justify-content: space-between;
-align-items: center;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     nav {
         a {
             margin: 10px;
             color: black;
-            
+
         }
     }
 }
 
-.logo{
+.logo {
     height: 100px;
 }
 
 .hero {
- background-image: url(assets/unsplash_jg-6ARMiaPM.png);
- height: 85vh;  
- background-size: cover;
- background-repeat: no-repeat;
- background-position: bottom;
- display: flex;
- color: white;
- align-items: start;
- flex-direction: column;
- justify-content: flex-end;
- padding: 50px;
- gap: 20px;
+    background-image: url(assets/unsplash_jg-6ARMiaPM.png);
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    color: white;
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px;
+    gap: 20px;
 
- 
+
 }
 
 
-h1{
+h1 {
     font-size: 50px;
-     font-weight: 700;
+    font-weight: 700;
 }
 
-.bouton{
+.bouton {
     background-color: #DAB100;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px 16px;
+
+
+
 
 }
-.bouton-secondaire{
+
+.bouton-secondaire {
     color: #DAB100;
     background-color: white;
-    margin-right: 10px;
-
-    
-
+    margin-left: 16px;
 
 
 }
 
+.projects {
+    article {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+
+        .img-container {
+            width: 40vw;
+
+            img {
+                width: 100%;
+                
+            }
+
+        }
+
+        .text-container {
+            width: 40vw;
+            color: white;
+            background-color: black;
 
 
 
+        }
+    }
+}
 
+main{
+    
+}
 
+section {
+    margin-bottom: 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
