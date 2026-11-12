@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    color: black;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
    
+
 }
 
 li {
@@ -12,6 +14,7 @@ li {
 
 a {
      text-decoration: none;
+     display: inline-block;
 }
 
 header{
@@ -20,7 +23,9 @@ justify-content: space-between;
 align-items: center;
     nav {
         a {
-            margin: 8px;
+            margin: 10px;
+            color: black;
+            
         }
     }
 }
@@ -35,8 +40,44 @@ align-items: center;
  background-size: cover;
  background-repeat: no-repeat;
  background-position: bottom;
+ display: flex;
+ color: white;
+ align-items: start;
+ flex-direction: column;
+ justify-content: flex-end;
+ padding: 50px;
+ gap: 20px;
+
+ 
+}
+
+
+h1{
+    font-size: 50px;
+     font-weight: 700;
+}
+
+.bouton{
+    background-color: #DAB100;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
 
 }
+.bouton-secondaire{
+    color: #DAB100;
+    background-color: white;
+    margin-right: 10px;
+
+    
+
+
+
+}
+
+
+
+
 
 
 
