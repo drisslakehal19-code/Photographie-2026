@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
-
+    
 
 }
 
@@ -65,8 +64,6 @@ h1 {
     padding: 8px 16px;
 
 
-
-
 }
 
 .bouton-secondaire {
@@ -98,19 +95,35 @@ h1 {
         .text-container {
             width: 40vw;
             color: white;
-            background-color: black;
+            
 
 
+
+        }
+        .container {
+            width: 40vw;
+
+            img{
+                width: 1OO;
+            }
 
         }
     }
 }
 
-main{
+main { 
+    background-color: #F5D1B1;
+
     
 }
 
 section {
     margin-bottom: 20px;
 
+}
+
+.photos img{
+    width: 100%;
+
+    
 }
