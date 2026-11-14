@@ -119,6 +119,15 @@ main {
 
 section {
     margin-bottom: 20px;
+     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+   
+
+
+        
+    
+    
+
 
 }
 
@@ -127,3 +136,157 @@ section {
 
     
 }
+
+.conteneur {
+  display: flex;             
+  justify-content: space-between; 
+  gap: 15px;                 
+  padding: 20px;
+  height: 400px;
+  background-color:#F5D1B1;
+
+  
+
+
+
+   
+}
+
+
+.rectangle {
+  width: 200px;              
+  height: 100px;            
+  border: 2px solid #b98888;   
+  background-color:white; 
+  display: flex;
+  align-items: center;       
+  justify-content: center;  
+  text-align: center;
+ 
+
+
+}
+
+:root {
+  --bg-color: #f4f6f0;       /* Blanc cassé / Crème doux */
+  --card-bg: #ffffff;        /* Blanc pur */
+  --primary-green: #2c4c3b;  /* Vert forêt profond */
+  --accent-green: #6b8e23;   /* Vert mousse / olive */
+  --text-dark: #2b2d2f;      /* Gris anthracite */
+  --text-muted: #6c757d;     /* Gris doux */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.testimonials-section {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* En-tête de la section */
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  color: var(--primary-green);
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
+
+/* Grille responsive */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Style des cartes */
+.testimonial-card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 35px 30px;
+  box-shadow: 0 10px 25px rgba(44, 76, 59, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 4px solid var(--accent-green);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au survol de la souris */
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(44, 76, 59, 0.15);
+}
+
+.quote-icon {
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--accent-green);
+  opacity: 0.4;
+  font-family: Georgia, serif;
+  margin-bottom: -15px;
+}
+
+.testimonial-card blockquote {
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--text-dark);
+  margin-bottom: 25px;
+}
+
+/* Informations de l'auteur */
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.author-avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary-green);
+}
+
+.author-info h3 {
+  font-size: 1.1rem;
+  color: var(--primary-green);
+  margin-bottom: 2px;
+}
+
+.author-info span {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  display: block;
+}
+
+
+
+
